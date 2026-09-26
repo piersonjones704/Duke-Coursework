@@ -1,6 +1,5 @@
 public class TrueSpace {
     public long calculateSpace(int[] sizes, int clusterSize) {
-    // fill in code here 
     long total_disk_space = 0;
     for (int byte_size : sizes) {
         if (byte_size > clusterSize) {
@@ -10,7 +9,6 @@ public class TrueSpace {
                 total_disk_space += ((quotient + 1) * clusterSize);
             }
             else {
-                // if (quotient == 0)
                 total_disk_space += (quotient * clusterSize);
             }
         } 

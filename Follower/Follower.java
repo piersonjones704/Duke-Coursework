@@ -3,7 +3,6 @@ import java.util.*;
 public class Follower {
     public int[] follows(String[] words) {
     ArrayList<Integer> indexes = new ArrayList<>();
-    HashMap<String, Integer> pairing = new HashMap<>();
     int index_count = 0;
         for (String s : words) {
             for (int i = index_count + 1; i<words.length; i++) {

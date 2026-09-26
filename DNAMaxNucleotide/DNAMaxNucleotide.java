@@ -1,6 +1,5 @@
 public class DNAMaxNucleotide {
     public String max(String[] strands, String nuc) {
-        // fill in code here
         int maxstrlength = 0;
         String strandstr = "";
         int maxRecurrences_nuc = 0;

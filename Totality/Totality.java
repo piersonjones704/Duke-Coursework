@@ -1,9 +1,5 @@
 public class Totality {
     public int sum(int[] a, String stype) {
-        // you add code here
-        // int oddarray[];
-        // int evenarray[];
-        // int allarray[];
         int odd = 0;
         int even = 0;
         int all = 0;
@@ -29,10 +25,4 @@ public class Totality {
             return all;
             }
     }
-    // public static void main(String[] args) {
-    //     Totality t = new Totality();
-
-    //     int[] a = {1,2,3,4,5};
-    //     t.sum(a, "even");
-    // }
 }   

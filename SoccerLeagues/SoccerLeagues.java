@@ -2,14 +2,10 @@ import java.util.*;
 
 public class SoccerLeagues {
     public int[] points(String[] matches) {
-        // you write code here
         int size = matches.length;
         ArrayList<Integer> team_scores = new ArrayList<>(Collections.nCopies(size, 0));
-        // int [] team_scores = new int[300];
-        // int [] team_scores = new int[size];
         int team_num = 0;
         for (String i : matches) {
-            // int team_score = 0;
             for (int j = 0; j < i.length(); j++) {
                 if (j == team_num) {} 
                 else {
